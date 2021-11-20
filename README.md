@@ -1,6 +1,6 @@
 
 <h2 align="center">
-<a href="https://maocommunity.blogspot.com/?m=1">SCBomber</a>
+<a href="https://maocommunity.blogspot.com/?m=1">TBOMB_MAO</a>
   
   </h2>
 </br>
@@ -12,15 +12,15 @@ YOU CAN ALSO SEND MAIL,! WITH THIS TOOL.!</i></b>
 <b> AUTHER </b>
 </p>
  <p align="center">
-<a href="https://github.com/Current7777">
+<a href="https://github.com/mao2116">
   <img width="50px" height="50px" src="https://raw.githubusercontent.com/fh-rabbi/Hack-Box/main/images/git.png">
 </a>
 </p>
   <p align="center">
-  <b> .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- </b>
+  <b> TO REPORT ANY TYPE OF BUG OR PROBLEM </b>
 <p/>
 <p align="center">
-<a href="https://www.facebook.com/groups/242589267650518/?ref=share">
+<a href="https://www.facebook.com/mAoVirUs2116/">
   <img width="50px" height="50px" src="https://raw.githubusercontent.com/fh-rabbi/Hack-Box/main/images/fb.png"><!I JUST USE A PIC FROM FH-RABBI >
 </a>
 </p>  
@@ -37,41 +37,64 @@ YOU CAN ALSO SEND MAIL,! WITH THIS TOOL.!</i></b>
 * `pkg install git -y`
 * `pkg install python -y`
 * `pip install requests`
-* `git clone https://github.com/Current7777/SCBomber`
-* `cd SCBomber`
+* `git clone https://github.com/mao2116/tbomb_mao`
+* `cd tbomb_mao`
 * `ls`
 
 
 ## ONE CLICK INSTALLATION (OLD AND SLOW):
-* `apt-get update -y && pkg install python -y && pip install requests && pkg install git -y && git clone https://github.com/Current7777/SCBomber && cd SCBomber`
+* `apt-get update -y && pkg install python -y && pip install requests && pkg install git -y && git clone https://github.com/mao2116/tbomb_mao && cd tbomb_mao`
 
+
+
+## FOR BATTER EXPERIENCE (RECOMMENDED): 
+
+## INSTALLATION [ ] :
+
+* `apt-get update -y`
+* `pkg install curl -y`
+* `pkg install python -y`
+* `pip install requests`
+* `curl https://codeload.github.com/mao2116/tbomb_mao/zip/refs/heads/main --output mao.zip`
+* `unzip mao.zip ; rm -rf mao.zip`
+* `mv tbomb_mao-main tbomb_mao`
+
+## ONE CLICK INSTALLATION :
+
+
+* `apt update ; apt install python -y ; apt install curl -y ; pip install requests ; curl https://codeload.github.com/mao2116/tbomb_mao/zip/refs/heads/main --output mao.zip ; unzip mao.zip ; rm -rf mao.zip ; mv tbomb_mao-main tbomb_mao`
+
+
+## FOR UPDATE TOOL ():
+
+* `cd ; rm -rf tbomb_mao ; apt update ; apt install python -y ; apt install curl -y ; pip install requests ; curl https://codeload.github.com/mao2116/tbomb_mao/zip/refs/heads/main --output mao.zip ; unzip mao.zip ; rm -rf mao.zip ; mv tbomb_mao-main tbomb_mao`
 
 ## FOR RUN THIS TOOL :
 
 ***OPEN TERMINAL AND TYPE:***
 
-* `cd SCBomber`
+* `cd tbomb_mao`
 
-* `python SCBomber.py --bombing <BOMBING TYPE> `
+* `python tbomb.py --bombing <BOMBING TYPE> `
 
 ***OR***
 
-* `python SCBomber.py`
+* `python tbomb_mao.py`
 
 ***SMS BOMBING***
 
-* `python SCBomber.py --bombing sms --cc <COUNTRY CODE> --number <NUMBER> --threat <BIMBING LIMIT>`
+* `python tbomb.py --bombing sms --cc <COUNTRY CODE> --number <NUMBER> --threat <BIMBING LIMIT>`
 
 ***SMS AND CALL BOMBING***
 
-* `python SCBomber.py --bombing sms_call --cc <COUNTRY CODE> --number <NUMBER> --threat <BIMBING LIMIT>`
+* `python tbomb.py --bombing sms_call --cc <COUNTRY CODE> --number <NUMBER> --threat <BIMBING LIMIT>`
 
 ***EXAMPLE***
 
-* `python SCBomber.py --bombing sms_call --cc 880 --number 01777777777 --threat 1000`
+* `python tbomb.py --bombing sms_call --cc 880 --number 01777777777 --threat 1000`
 
 ## FOR HELP
-* `python SCBomber.py -h`
+* `python tbomb.py -h`
 
 </br>
 <h3>[ ! ] TASTED ON TERMUX [ ! ]
@@ -85,13 +108,13 @@ YOU CAN ALSO SEND MAIL,! WITH THIS TOOL.!</i></b>
 </br>
 </br>
 <p align="center">
-<a href="https://www.facebook.com/groups/242589267650518/?ref=share">
+<a href="https://www.facebook.com/mAoVirUs2116/">
   <img width="50px" height="50px" src="https://raw.githubusercontent.com/fh-rabbi/Hack-Box/main/images/fb.png"><!I JUST USE A PIC FROM FH-RABBI >
 <a/>
 <p/>  
 
 </b>
-<b> Current7777 </b>
+<b> mao2116 </b>
 
 ## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
