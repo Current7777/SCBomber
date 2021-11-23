@@ -57,7 +57,7 @@ try:
       cc=input('ENTER COUNTRY CODE (WITH OUT +):')
       number=input('ENTER NUMBER :')
       threat=input('ENTER BOMBING LIMIT(MAX=1000) :')
-      os.system('python tbomb.py --bombing sms --cc {cc} --number {number} --threat {threat}'.format(cc=cc,number=number,threat=threat))
+      os.system('python SCBomber.py --bombing sms --cc {cc} --number {number} --threat {threat}'.format(cc=cc,number=number,threat=threat))
       break
     elif mao=="2":
       os.system('clear')
@@ -65,13 +65,13 @@ try:
       cc=input('ENTER COUNTRY CODE (WITH OUT +):')
       number=input('ENTER NUMBER :')
       threat=input('ENTER BOMBING LIMIT(MAX=1000) :')
-      os.system('python tbomb.py --bombing sms_call --cc {cc} --number {number} --threat {threat}'.format(cc=cc,number=number,threat=threat))
+      os.system('python SCBomber.py --bombing sms_call --cc {cc} --number {number} --threat {threat}'.format(cc=cc,number=number,threat=threat))
       break
     elif mao =="3":
-      os.system('python tbomb.py --bombing email')
+      os.system('python SCBomber.py --bombing email')
       break
     elif mao =="4":
-      os.system('python tbomb.py --bombing email')
+      os.system('python SCBomber.py --bombing email')
       break
     elif mao =="5":
       os.system('xdg-open http://maxduhanov.ru/wp-content/jssor-slider/jssor-uploads/allnew22.html')
